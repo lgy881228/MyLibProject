@@ -27,3 +27,4 @@ pod 'MyLib'
 ## License
 
 MyLib is available under the MIT license. See the LICENSE file for more info.
+# MyLibProject

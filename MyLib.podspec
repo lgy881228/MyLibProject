@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyLib.'
+  s.summary          = '测试模块打包和方法调用.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/510687394@qq.com/MyLib'
+  s.homepage         = 'https://github.com/MyLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '510687394@qq.com' => '510687394@qq.com' }
-  s.source           = { :git => 'https://github.com/510687394@qq.com/MyLib.git', :tag => s.version.to_s }
+  s.author           = { 'lgy881228' => '510687394@qq.com' }
+  s.source           = { :git => 'https://github.com/lgy881228/MyLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'MyLib/Classes/**/*'
   
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'dsBridge'
 end
